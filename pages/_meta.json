@@ -1,15 +1,17 @@
 {
   "index": "Introduction",
-  "another": "Another Page",
-  "advanced": "Advanced (A Folder)",
+  "builtins": "Builtin functions",
+  "img": "Image Genration",
   "about": {
     "title": "About",
-    "type": "page"
+    "type": "page",
+    "href": "https://ccbot.app",
+    "newWindow": true
   },
   "contact": {
     "title": "Contact ↗",
     "type": "page",
-    "href": "https://twitter.com/shuding_",
+    "href": "https://shahriyar.dev/contact",
     "newWindow": true
   }
 }

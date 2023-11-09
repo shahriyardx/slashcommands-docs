@@ -1,0 +1,13 @@
+## loop
+Python for and while loops or any list or dict comprehension is not supported. Instead, use the `loop` function.
+
+```python
+# function that gets called for every item
+sum = 0
+def add_to_sum(item, index):
+    global sum
+    sum += item
+
+numbers = [1, 2, 3]
+loop(numbers, add_to_sum)
+```

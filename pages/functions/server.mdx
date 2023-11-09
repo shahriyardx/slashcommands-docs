@@ -1,0 +1,24 @@
+# Server specific functions
+functions for some server speific stuff
+
+## server
+gives access to the server object [docs](https://docs.hikari-py.dev/en/latest/reference/hikari/guilds/#hikari.guilds.Guild)
+use if you want to access advanced parameters
+```python
+server_name = server.name
+```
+
+## Examples
+```python
+server.icon_url
+# Icon URL for the server, if set; otherwise None.
+
+server.name
+# The name of the server.
+
+server.owner_id
+# The ID of the owner of the server.
+
+server.id
+# The ID of the server.
+```

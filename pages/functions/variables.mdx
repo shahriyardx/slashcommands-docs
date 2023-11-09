@@ -1,0 +1,36 @@
+# Variables
+functions about variables
+
+## server_var
+get value of a server variable
+```python
+server_var("variable_name")
+```
+
+## member_var
+get value of a member variable
+```python
+member_var(
+    "variable_name", 
+    member=user | user_id, # optional, defaults to the command executing user
+) 
+```
+
+## update_server_var
+update a variable server wide
+```python
+update_server_var(
+    name="variable_name",
+    value="new_value",
+)
+```
+
+## update_member_var
+update a variable specific to a member
+```python
+update_member_var(
+    name="variable_name",
+    value="new_value",
+    member=user | user_id, # optional, defaults to the command executing user
+)
+```
